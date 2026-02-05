@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Office (US)</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="Title">The Office (US)</h1>
+
+    <img
+      id="CoverArt"
+      src="theoffice.avif"
+      alt="The Office US cover art"
+    />
+
+    <h5 id="Rating">IMDb Rating: 9.0/10</h5>
+
+    <iframe
+      id="Trailer"
+      src="https://www.youtube.com/embed/-C2z-nshFts"
+      title="The Office US Trailer"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+
+    <a id="ImdbLink" href="https://www.imdb.com/title/tt0386676/" target="_blank" rel="noreferrer">
+      View on IMDb
+    </a>
+
+    <p id="Summary">
+      A mockumentary on a group of typical office workers, where the workday consists of ego clashes,
+      inappropriate behavior, and romance.
+    </p>
+
+    <ul id="Actors">
+      <li>Steve Carell (Michael Scott)</li>
+      <li>John Krasinski (Jim Halpert)</li>
+      <li>Jenna Fischer (Pam Beesly)</li>
+      <li>Rainn Wilson (Dwight Schrute)</li>
+      <li>Leslie David Baker (Stanley Hudson)</li>
+    </ul>
+
+    <button id="quoteButton" type="button">Click for a quote</button>
+    <p id="quoteText" class="hidden"></p>
+  </div>
+
+  <script src="js/quote.js"></script>
+</body>
+</html>
